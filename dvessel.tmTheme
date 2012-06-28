@@ -147,7 +147,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#666666</string>
+        <string>#555555AA</string>
       </dict>
     </dict>
     <dict>
@@ -166,6 +166,17 @@
       <string>embed tag</string>
       <key>scope</key>
       <string>punctuation.section.embedded.begin | punctuation.section.embedded.end</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#CCCCCC</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>tag definition</string>
+      <key>scope</key>
+      <string>punctuation.definition.tag</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -208,20 +219,18 @@
       </dict>
     </dict>
 
-    <!-- HTML -->
+    <!-- HTML/CSS -->
     <dict>
       <key>name</key>
-      <string>html id attribute</string>
+      <string>css/html id</string>
       <key>scope</key>
-      <string>meta.toc-list.id.html</string>
+      <string>entity.other.attribute-name.id.css, meta.toc-list.id.html</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#FF6600E6</string>
+        <string>#FF6633</string>
       </dict>
     </dict>
-
-    <!-- CSS -->
     <dict>
       <key>name</key>
       <string>css entity</string>
@@ -235,24 +244,26 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>css tag</string>
+      <string>css html attribute</string>
       <key>scope</key>
-      <string>entity.name.tag.css</string>
+      <string>meta.attribute-selector.css, meta.attribute-selector.css punctuation.definition.entity.css</string>
       <key>settings</key>
       <dict>
+        <key>foreground</key>
+        <string>#55555599</string>
         <key>background</key>
-        <string>#629CFF22</string>
+        <string>#55555511</string>
       </dict>
     </dict>
     <dict>
       <key>name</key>
-      <string>css id</string>
+      <string>css pseudo</string>
       <key>scope</key>
-      <string>entity.other.attribute-name.id.css</string>
+      <string>entity.other.attribute-name.pseudo-class.css</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#FF6600E6</string>
+        <key>background</key>
+        <string>#FFAA0022</string>
       </dict>
     </dict>
 
@@ -321,6 +332,35 @@
       <dict>
         <key>background</key>
         <string>#E6DB74</string>
+      </dict>
+    </dict>
+
+    <!-- Search -->
+    <dict>
+      <key>scope</key>
+      <string>constant.numeric.line-number.find-in-files - match</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#55555566</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>scope</key>
+      <string>constant.numeric.line-number.match.find-in-files</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FF0000</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>scope</key>
+      <string>entity.name.filename.find-in-files</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FF0000</string>
       </dict>
     </dict>
 
