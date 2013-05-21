@@ -200,7 +200,7 @@
       <key>name</key>
       <string>Inline Embedded</string>
       <key>scope</key>
-      <string>source.php.embedded.line</string>
+      <string>source.php.embedded.line, string.quoted.double meta.tag</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
