@@ -1,3 +1,3 @@
 Personal Sublime Text theme.
 
-![Screen Shot](https://github.com/dvessel/dvessel-theme/blob/master/screen-shot.png)
+![Screen Shot](https://raw.github.com/dvessel/dvessel-theme/master/screen-shot.png)
