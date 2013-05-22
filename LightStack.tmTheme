@@ -339,27 +339,27 @@
 
     <!-- Linter -->
     <dict>
-        <key>name</key>
-        <string>SublimeLinter Error Outline</string>
-        <key>scope</key>
-        <string>sublimelinter.outline.illegal</string>
-        <key>settings</key>
-        <dict>
-            <key>background</key>
-            <string>#FF000066</string>
-        </dict>
+      <key>name</key>
+      <string>SublimeLinter Error Outline</string>
+      <key>scope</key>
+      <string>sublimelinter.outline.illegal</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#FF000066</string>
+      </dict>
     </dict>
 
     <dict>
-        <key>name</key>
-        <string>SublimeLinter Warning Outline</string>
-        <key>scope</key>
-        <string>sublimelinter.outline.warning</string>
-        <key>settings</key>
-        <dict>
-            <key>background</key>
-            <string>#FFAA33</string>
-        </dict>
+      <key>name</key>
+      <string>SublimeLinter Warning Outline</string>
+      <key>scope</key>
+      <string>sublimelinter.outline.warning</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#FFAA33</string>
+      </dict>
     </dict>
 
   </array>
