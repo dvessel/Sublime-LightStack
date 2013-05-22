@@ -233,6 +233,43 @@
       </dict>
     </dict>
 
+    <!-- Markup (Tested with Markdown.) -->
+    <dict>
+      <key>name</key>
+      <string>Markup Bold</string>
+      <key>scope</key>
+      <string>markup.heading, markup.bold</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Markup Italic</string>
+      <key>scope</key>
+      <string>markup.italic, markup.quote</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>italic</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Markup Context</string>
+      <key>scope</key>
+      <string>markup.raw, markup.quote</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#CCCCCC33</string>
+      </dict>
+    </dict>
+
     <!-- DIFF -->
     <dict>
       <key>name</key>
