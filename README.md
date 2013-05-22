@@ -2,16 +2,15 @@ Personal Sublime Text theme.
 
 ![Screen Shot](https://raw.github.com/dvessel/dvessel-theme/master/screen-shot.png)
 
-### Suggested Packages:
+### Suggested Additions:
 
+- [Anonymous Pro Font](http://www.marksimonson.com/fonts/view/anonymous-pro)
 - [Soda Theme](http://buymeasoda.github.io/soda-theme/)
 - [GitGutter](https://github.com/jisaacks/GitGutter)
 - [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter)
 
 
 ### Suggested Settings:
-
-Font: [Anonymous Pro](http://www.marksimonson.com/fonts/view/anonymous-pro)
 
 `@file Packages/User/Preferences.sublime-settings`
 
@@ -45,4 +44,12 @@ Font: [Anonymous Pro](http://www.marksimonson.com/fonts/view/anonymous-pro)
 {
   "sublimelinter_mark_style": "outline"
 }
+```
+
+### Extra:
+
+This color scheme includes modifications to the Soda Light theme. All you have to do to enable it is to link the `Soda Light.sublime-theme` file to your `Packages/User` folder.
+
+```bash
+ln -s ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/LightStack/User/Soda\ Light.sublime-theme ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/
 ```
