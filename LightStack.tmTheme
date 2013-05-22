@@ -4,9 +4,12 @@
 <dict>
   <key>name</key>
   <string>LightStack</string>
+
+  <key>uuid</key>
+  <string>A1E55FCB-3CD2-4811-9E73-D9B87419443A</string>
+
   <key>settings</key>
   <array>
-
     <!-- General Settings -->
     <dict>
       <key>settings</key>
@@ -49,7 +52,6 @@
         <string>#D6D6D6</string>
       </dict>
     </dict>
-
 
     <!-- General Language -->
     <dict>
@@ -194,7 +196,6 @@
       </dict>
     </dict>
 
-
     <!-- PHP/HTML/CSS -->
     <dict>
       <key>name</key>
@@ -316,7 +317,7 @@
       <key>name</key>
       <string>Search Line Numbers</string>
       <key>scope</key>
-      <string>constant.numeric.line-number.find-in-files - match</string>
+      <string>constant.numeric.line-number.find-in-files</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -362,7 +363,5 @@
     </dict>
 
   </array>
-  <key>uuid</key>
-  <string>A1E55FCB-3CD2-4811-9E73-D9B87419443A</string>
 </dict>
 </plist>
