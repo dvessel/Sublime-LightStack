@@ -275,7 +275,7 @@
 
     <dict>
       <key>name</key>
-      <string>diff.range.unified</string>
+      <string>Diff Range</string>
       <key>scope</key>
       <string>meta.diff.range.unified</string>
       <key>settings</key>
@@ -287,7 +287,7 @@
 
     <dict>
       <key>name</key>
-      <string>diff.changed</string>
+      <string>Diff Changed</string>
       <key>scope</key>
       <string>markup.changed</string>
       <key>settings</key>
@@ -299,6 +299,8 @@
 
     <!-- Search -->
     <dict>
+      <key>name</key>
+      <string>Search File Path</string>
       <key>scope</key>
       <string>entity.name.filename.find-in-files</string>
       <key>settings</key>
@@ -311,6 +313,8 @@
     </dict>
 
     <dict>
+      <key>name</key>
+      <string>Search Line Numbers</string>
       <key>scope</key>
       <string>constant.numeric.line-number.find-in-files - match</string>
       <key>settings</key>
@@ -321,6 +325,8 @@
     </dict>
 
     <dict>
+      <key>name</key>
+      <string>Search Line Numbers Matched</string>
       <key>scope</key>
       <string>constant.numeric.line-number.match.find-in-files</string>
       <key>settings</key>
