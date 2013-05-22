@@ -335,6 +335,43 @@
       </dict>
     </dict>
 
+    <!-- GitGutter (https://github.com/jisaacks/GitGutter) -->
+    <dict>
+      <key>name</key>
+      <string>Diff Deleted GitGutter</string>
+      <key>scope</key>
+      <string>markup.deleted.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#99333399</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Diff Inserted GitGutter</string>
+      <key>scope</key>
+      <string>markup.inserted.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#00663399</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Diff Changed GitGutter</string>
+      <key>scope</key>
+      <string>markup.changed.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FF996699</string>
+      </dict>
+    </dict>
+
     <!-- Search -->
     <dict>
       <key>name</key>
