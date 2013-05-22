@@ -339,25 +339,13 @@
     <!-- Linter -->
     <dict>
         <key>name</key>
-        <string>SublimeLinter Underline</string>
-        <key>scope</key>
-        <string>sublimelinter.underline</string>
-        <key>settings</key>
-        <dict>
-            <key>background</key>
-            <string>#FF0000</string>
-        </dict>
-    </dict>
-
-    <dict>
-        <key>name</key>
         <string>SublimeLinter Error Outline</string>
         <key>scope</key>
         <string>sublimelinter.outline.illegal</string>
         <key>settings</key>
         <dict>
             <key>background</key>
-            <string>#FF000033</string>
+            <string>#FF000066</string>
         </dict>
     </dict>
 
@@ -369,22 +357,7 @@
         <key>settings</key>
         <dict>
             <key>background</key>
-            <string>#FFCC0055</string>
-        </dict>
-    </dict>
-
-    <!-- Need example -->
-    <dict>
-        <key>name</key>
-        <string>SublimeLinter Violation Outline</string>
-        <key>scope</key>
-        <string>sublimelinter.outline.violation</string>
-        <key>settings</key>
-        <dict>
-            <key>background</key>
-            <string>#ffffff33</string>
-            <key>foreground</key>
-            <string>#FFFFFF</string>
+            <string>#FFAA33</string>
         </dict>
     </dict>
 
