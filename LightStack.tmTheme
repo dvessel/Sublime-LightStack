@@ -320,7 +320,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#00000066</string>
+        <string>#33333366</string>
       </dict>
     </dict>
 
@@ -332,7 +332,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#000000</string>
+        <string>#333333</string>
       </dict>
     </dict>
 
