@@ -132,7 +132,7 @@
       <key>name</key>
       <string>Tag and String Definition</string>
       <key>scope</key>
-      <string>punctuation.definition.tag, punctuation.section.tag, punctuation.definition.string, comment.block.twig punctuation.definition.comment</string>
+      <string>punctuation.definition.tag, punctuation.section.tag, punctuation.section.embedded, punctuation.definition.string, comment.block.twig punctuation.definition.comment</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
