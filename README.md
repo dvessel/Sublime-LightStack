@@ -51,5 +51,5 @@ Personal Sublime Text theme.
 This color scheme includes modifications to the Soda Light theme. All you have to do to enable it is to link the `Soda Light.sublime-theme` file to your `Packages/User` folder.
 
 ```bash
-ln -s ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/LightStack/User/Soda\ Light.sublime-theme ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/
+ln -s ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/LightStack/Soda\ Light.sublime-theme ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/
 ```
