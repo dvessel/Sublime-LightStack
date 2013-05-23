@@ -24,7 +24,7 @@ Personal Sublime Text theme.
   "indent_guide_options": [ "draw_active" ],
   "line_padding_top": 4,
   "margin": 0,
-  "theme": "Soda Light.sublime-theme",
+  "theme": "Soda Light.sublime-theme"
 }
 ```
 
@@ -34,7 +34,7 @@ Personal Sublime Text theme.
 {
   "gutter": false,
   "indent_guide_options": [],
-  "margin": 10,
+  "margin": 10
 }
 ```
 
