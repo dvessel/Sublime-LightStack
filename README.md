@@ -46,9 +46,11 @@ Personal Sublime Text theme.
 }
 ```
 
-### Extra:
+### Extras:
 
 This color scheme includes modifications to the Soda Light theme. All you have to do to enable it is to link the `Soda Light.sublime-theme` and `Widget - Soda Light.sublime-settings` file to your `Packages/User` folder.
+
+This is not a hack. It's a supported feature of Sublime Text. More information can be found in the [Soda theme wiki](https://github.com/buymeasoda/soda-theme/wiki/Theme-customisation).
 
 ```bash
 ln -s ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/LightStack/Soda\ Light/*.sublime-* ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/
