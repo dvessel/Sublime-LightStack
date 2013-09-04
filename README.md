@@ -52,6 +52,12 @@ This color scheme includes modifications to the Soda Light theme. All you have t
 
 This is not a hack. It's a supported feature of Sublime Text. More information can be found in the [Soda theme wiki](https://github.com/buymeasoda/soda-theme/wiki/Theme-customisation).
 
+For Sublime Text 2:
 ```bash
-ln -s ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/LightStack/Soda\ Light/*.sublime-* ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/
+ln -s ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/LightStack/Soda\ Light/*Soda\ Light.sublime-* ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/
+```
+
+For Sublime Text 3:
+```bash
+ln -s ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/LightStack/Soda\ Light/*Soda\ Light\ 3.sublime-* ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 ```
